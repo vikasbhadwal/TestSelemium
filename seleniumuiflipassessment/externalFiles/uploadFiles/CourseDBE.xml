@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<testcases>
+  <testcase internalid="" name="TC- 1">
+    <node_order><![CDATA[]]></node_order>
+    <externalid><![CDATA[]]></externalid>
+    <version><![CDATA[]]></version>
+    <summary><![CDATA[Check whether proper field displayed on login page
+]]></summary>
+    <preconditions><![CDATA[abc]]></preconditions>
+    <execution_type><![CDATA[1]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[Enter URL say https://testing6.tk20.com]]></actions>
+        <expectedresults><![CDATA[1. Username and Password fields should be displayed with text box.
+2. Login button should be  displayed.
+3. Also 'Forgot your username or password?' link should be displayed.
+4.At the right side, Two sub tabs 'Additional Information' and 'Admissions' should be displayed and default selected tab as 'Additional Information ']]></expectedresults>
+        <execution_type><![CDATA[1]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC- 2">
+    <node_order><![CDATA[]]></node_order>
+    <externalid><![CDATA[]]></externalid>
+    <version><![CDATA[]]></version>
+    <summary><![CDATA[Check whether an alert message displayed on clicking login button without entering 'username' and 'password'.]]></summary>
+    <preconditions><![CDATA[abc]]></preconditions>
+    <execution_type><![CDATA[1]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[Click Login button]]></actions>
+        <expectedresults><![CDATA[Alert message saying “User name is required. Password is required.” should be displayed with 'OK' button]]></expectedresults>
+        <execution_type><![CDATA[1]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+  <testcase internalid="" name="TC- 3">
+    <node_order><![CDATA[]]></node_order>
+    <externalid><![CDATA[]]></externalid>
+    <version><![CDATA[]]></version>
+    <summary><![CDATA[Check whether alert message gets  disappear on clicking 'OK' button.]]></summary>
+    <preconditions><![CDATA[abc]]></preconditions>
+    <execution_type><![CDATA[1]]></execution_type>
+    <importance><![CDATA[2]]></importance>
+    <steps>
+      <step>
+        <step_number><![CDATA[1]]></step_number>
+        <actions><![CDATA[1.Click Login button
+2.Click 'Ok' button]]></actions>
+        <expectedresults><![CDATA[Alert message should get disappear.]]></expectedresults>
+        <execution_type><![CDATA[1]]></execution_type>
+      </step>
+    </steps>
+  </testcase>
+</testcases>

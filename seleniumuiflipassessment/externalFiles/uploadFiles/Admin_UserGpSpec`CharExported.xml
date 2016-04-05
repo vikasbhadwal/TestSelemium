@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tk20:Transaction xmlns:tk20="http://www.tk20.com/dataload">
+  <tk20:Create>
+    <tk20:Object class="com.tk20.bo.querydef.Report" logicalId="object1">
+      <tk20:Attribute name="cols" value="0"/>
+      <tk20:Attribute name="chartOrientation" value="false"/>
+      <tk20:Attribute name="isChart" value="false"/>
+      <tk20:Attribute name="isReport" value="false"/>
+      <tk20:Attribute name="timesGenerated" value="0"/>
+      <tk20:Attribute name="title" value="Admin_UserGpSpec`CharExported"/>
+      <tk20:Attribute name="description" value=""/>
+      <tk20:Attribute name="chartType" value=""/>
+      <tk20:Attribute name="XLabel" value=""/>
+      <tk20:Attribute name="YLabel" value=""/>
+      <tk20:Attribute name="type" value="Complex"/>
+      <tk20:Attribute name="location" value=""/>
+      <tk20:Attribute name="queryString" value="select tk_person.primarykey from tk_person,tk_role where tk_role.primarykey=tk_person.tk_role and tk_role.tk_name=&amp;apos;Cooperating Teacher&amp;apos; order by tk_person.primarykey;"/>
+      <tk20:Attribute name="reportType" value=""/>
+      <tk20:Attribute name="reportId" value=""/>
+      <tk20:Attribute name="footerText" value=""/>
+      <tk20:Attribute name="dateLastGenerated" value=""/>
+    </tk20:Object>
+  </tk20:Create>
+  <tk20:Update>
+    <tk20:Object class="com.tk20.bo.querydef.Report" logicalId="object1"/>
+  </tk20:Update>
+</tk20:Transaction>

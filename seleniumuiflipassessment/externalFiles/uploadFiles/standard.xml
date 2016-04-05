@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tk20:Transaction xmlns:tk20="http://www.tk20.com/dataload">
+  <tk20:Create>
+    <tk20:Object class="com.tk20.bo.standard.StandardBody" logicalId="object1">
+      <tk20:Attribute name="isActive" value="false"/>
+      <tk20:Attribute name="sort" value="0"/>
+      <tk20:Attribute name="name" value="artifactTemplate"/>
+      <tk20:Attribute name="description" value="Hello Dis is new standrd body"/>
+      <tk20:Attribute name="version" value=""/>
+      <tk20:Attribute name="type" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.standard.StandardGroup" logicalId="object2">
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="name" value="Test Group"/>
+      <tk20:Attribute name="description" value="hello"/>
+      <tk20:Attribute name="type" value="accreditationstandard"/>
+    </tk20:Object>
+  </tk20:Create>
+  <tk20:Update>
+    <tk20:Object class="com.tk20.bo.standard.StandardBody" logicalId="object1">
+      <tk20:Relation name="standards" operation="set"/>
+      <tk20:Relation name="standardGroups" operation="set">
+        <tk20:Reference class="com.tk20.bo.standard.StandardGroup" logicalId="object2"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.standard.StandardGroup" logicalId="object2">
+      <tk20:Relation name="standardBody" operation="set">
+        <tk20:Reference class="com.tk20.bo.standard.StandardBody" logicalId="object1"/>
+      </tk20:Relation>
+      <tk20:Relation name="standardGroup" operation="set"/>
+      <tk20:Relation name="groupStandards" operation="set"/>
+      <tk20:Relation name="standardGroups" operation="set"/>
+    </tk20:Object>
+  </tk20:Update>
+</tk20:Transaction>

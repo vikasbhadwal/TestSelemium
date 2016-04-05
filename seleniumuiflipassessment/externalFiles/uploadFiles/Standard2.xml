@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tk20:Transaction xmlns:tk20="http://www.tk20.com/dataload">
+  <tk20:Create>
+    <tk20:Object class="com.tk20.bo.standard.StandardBody" logicalId="object1">
+      <tk20:Attribute name="isActive" value="false"/>
+      <tk20:Attribute name="sort" value="0"/>
+      <tk20:Attribute name="name" value="artifactTemplate_visible"/>
+      <tk20:Attribute name="description" value=""/>
+      <tk20:Attribute name="version" value=""/>
+      <tk20:Attribute name="type" value=""/>
+    </tk20:Object>
+  </tk20:Create>
+  <tk20:Update>
+    <tk20:Object class="com.tk20.bo.standard.StandardBody" logicalId="object1">
+      <tk20:Relation name="standards" operation="set"/>
+      <tk20:Relation name="standardGroups" operation="set"/>
+    </tk20:Object>
+  </tk20:Update>
+</tk20:Transaction>

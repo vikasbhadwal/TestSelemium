@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tk20:Transaction xmlns:tk20="http://www.tk20.com/dataload">
+  <tk20:Create>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplate" logicalId="object1">
+      <tk20:Attribute name="isKey" value="false"/>
+      <tk20:Attribute name="isPublic" value="false"/>
+      <tk20:Attribute name="isActive" value="true"/>
+      <tk20:Attribute name="allowAutomaticScoring" value="false"/>
+      <tk20:Attribute name="isTemplate" value="true"/>
+      <tk20:Attribute name="includeInGradebook" value="false"/>
+      <tk20:Attribute name="totalWeight" value="0.0"/>
+      <tk20:Attribute name="isdbe" value="false"/>
+      <tk20:Attribute name="isDefault" value="false"/>
+      <tk20:Attribute name="availableToAllCourses" value="false"/>
+      <tk20:Attribute name="isCourses" value="false"/>
+      <tk20:Attribute name="isStandards" value="false"/>
+      <tk20:Attribute name="isTpa" value="false"/>
+      <tk20:Attribute name="tagged" value="false"/>
+      <tk20:Attribute name="title" value="Special Symbols xml"/>
+      <tk20:Attribute name="description" value=""/>
+      <tk20:Attribute name="type" value=""/>
+      <tk20:Attribute name="instructions" value=" "/>
+      <tk20:Attribute name="context" value="artifacttemplate"/>
+      <tk20:Attribute name="lastUpdateDate" value=""/>
+      <tk20:Attribute name="rubricId" value=""/>
+      <tk20:Attribute name="associationStatus" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplateDisplayName" logicalId="object2">
+      <tk20:Attribute name="isDefault" value="true"/>
+      <tk20:Attribute name="title" value="Untitled Instance 1"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.evaluationinstrument.FillInBlank" logicalId="object3">
+      <tk20:Attribute name="weight" value="0"/>
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="enforceAnswering" value="false"/>
+      <tk20:Attribute name="isDeleted" value="false"/>
+      <tk20:Attribute name="characterLength" value="0"/>
+      <tk20:Attribute name="isImported" value="false"/>
+      <tk20:Attribute name="difficulty" value="0"/>
+      <tk20:Attribute name="gradeAutomatically" value="false"/>
+      <tk20:Attribute name="isRichText" value="false"/>
+      <tk20:Attribute name="isDateRange" value="false"/>
+      <tk20:Attribute name="showDetails" value="false"/>
+      <tk20:Attribute name="enforceDateFormat" value="false"/>
+      <tk20:Attribute name="randomize" value="false"/>
+      <tk20:Attribute name="includeModelResponse" value="false"/>
+      <tk20:Attribute name="isDefault" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="tagged" value="false"/>
+      <tk20:Attribute name="questionText" value="Single line of text"/>
+      <tk20:Attribute name="defaultAnswer" value=""/>
+      <tk20:Attribute name="validation" value=""/>
+      <tk20:Attribute name="format" value=""/>
+      <tk20:Attribute name="type" value="Single Line of Text"/>
+      <tk20:Attribute name="instructions" value=""/>
+      <tk20:Attribute name="label" value=""/>
+      <tk20:Attribute name="cols" value="60"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentGroup" logicalId="object4">
+      <tk20:Attribute name="sort" value="1"/>
+      <tk20:Attribute name="isDeleted" value="false"/>
+      <tk20:Attribute name="title" value="Untitled Group"/>
+      <tk20:Attribute name="description" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplateInstance" logicalId="object5">
+      <tk20:Attribute name="isHidden" value="false"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.domain.AllowableValue" logicalId="object6">
+      <tk20:Attribute name="sort" value="2"/>
+      <tk20:Attribute name="isVisible" value="false"/>
+      <tk20:Attribute name="subsort" value="0"/>
+      <tk20:Attribute name="externalValue" value="Assessment Tool"/>
+      <tk20:Attribute name="internalValue" value="assessmenttool"/>
+      <tk20:Attribute name="codeType" value=""/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.evaluationinstrument.ShortAnswer" logicalId="object7">
+      <tk20:Attribute name="weight" value="0"/>
+      <tk20:Attribute name="sort" value="2"/>
+      <tk20:Attribute name="enforceAnswering" value="false"/>
+      <tk20:Attribute name="isDeleted" value="false"/>
+      <tk20:Attribute name="characterLength" value="0"/>
+      <tk20:Attribute name="isImported" value="false"/>
+      <tk20:Attribute name="difficulty" value="0"/>
+      <tk20:Attribute name="gradeAutomatically" value="false"/>
+      <tk20:Attribute name="isRichText" value="false"/>
+      <tk20:Attribute name="isDateRange" value="false"/>
+      <tk20:Attribute name="showDetails" value="false"/>
+      <tk20:Attribute name="enforceDateFormat" value="false"/>
+      <tk20:Attribute name="randomize" value="false"/>
+      <tk20:Attribute name="includeModelResponse" value="false"/>
+      <tk20:Attribute name="isDefault" value="false"/>
+      <tk20:Attribute name="isHidden" value="false"/>
+      <tk20:Attribute name="tagged" value="false"/>
+      <tk20:Attribute name="questionText" value="Small text area"/>
+      <tk20:Attribute name="defaultAnswer" value=""/>
+      <tk20:Attribute name="validation" value=""/>
+      <tk20:Attribute name="format" value=""/>
+      <tk20:Attribute name="type" value="Small Text Area"/>
+      <tk20:Attribute name="instructions" value=""/>
+      <tk20:Attribute name="label" value=""/>
+      <tk20:Attribute name="cols" value="480"/>
+      <tk20:Attribute name="rows" value="300"/>
+    </tk20:Object>
+  </tk20:Create>
+  <tk20:Update>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplate" logicalId="object1">
+      <tk20:Relation name="assessmentGroups" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentGroup" logicalId="object4"/>
+      </tk20:Relation>
+      <tk20:Relation name="gradeScales" operation="set"/>
+      <tk20:Relation name="displayNames" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentTemplateDisplayName" logicalId="object2"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplateDisplayName" logicalId="object2">
+      <tk20:Relation name="instances" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentTemplateInstance" logicalId="object5"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.evaluationinstrument.FillInBlank" logicalId="object3">
+      <tk20:Relation name="questionBankQuestion" operation="set"/>
+      <tk20:Relation name="question" operation="set"/>
+      <tk20:Relation name="quizQuestion" operation="set"/>
+      <tk20:Relation name="assessmentGroup" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentGroup" logicalId="object4"/>
+      </tk20:Relation>
+      <tk20:Relation name="possibleAnswers" operation="set"/>
+      <tk20:Relation name="assessmentFields" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentGroup" logicalId="object4">
+      <tk20:Relation name="questions" operation="set">
+        <tk20:Reference class="com.tk20.bo.evaluationinstrument.FillInBlank" logicalId="object3"/>
+        <tk20:Reference class="com.tk20.bo.evaluationinstrument.ShortAnswer" logicalId="object7"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.template.AssessmentTemplateInstance" logicalId="object5">
+      <tk20:Relation name="displayName" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentTemplateDisplayName" logicalId="object2"/>
+      </tk20:Relation>
+      <tk20:Relation name="context" operation="set">
+        <tk20:Reference class="com.tk20.bo.domain.AllowableValue" logicalId="object6"/>
+      </tk20:Relation>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.domain.AllowableValue" logicalId="object6">
+      <tk20:Relation name="parentValue" operation="set"/>
+      <tk20:Relation name="childValues" operation="set"/>
+    </tk20:Object>
+    <tk20:Object class="com.tk20.bo.evaluationinstrument.ShortAnswer" logicalId="object7">
+      <tk20:Relation name="questionBankQuestion" operation="set"/>
+      <tk20:Relation name="question" operation="set"/>
+      <tk20:Relation name="quizQuestion" operation="set"/>
+      <tk20:Relation name="assessmentGroup" operation="set">
+        <tk20:Reference class="com.tk20.bo.template.AssessmentGroup" logicalId="object4"/>
+      </tk20:Relation>
+      <tk20:Relation name="possibleAnswers" operation="set"/>
+      <tk20:Relation name="assessmentFields" operation="set"/>
+    </tk20:Object>
+  </tk20:Update>
+</tk20:Transaction>
