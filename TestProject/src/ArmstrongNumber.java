@@ -5,6 +5,8 @@ import java.util.Scanner;
 //added commnent from git
 
 //added new comment
+
+//added from git new
 public class ArmstrongNumber {
 	public static void main(String args[])
 
