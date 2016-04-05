@@ -16,7 +16,7 @@ import org.testng.annotations.Test;
 
 public class FirstRealTest
 {
-	//added by vikas
+	//added by vikas bhadwal
 
 public static void main(String args[]) throws MalformedURLException, InterruptedException{
 DesiredCapabilities capabilities=DesiredCapabilities.android();
