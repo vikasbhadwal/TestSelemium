@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 //qwertyuuyyyy
+//qweeeqweqweqweqweqw
 public class ArmstrongNumber {
 	public static void main(String args[])
 
