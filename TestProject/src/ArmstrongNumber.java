@@ -1,12 +1,6 @@
 import java.util.Scanner;
 
-//added comment
-
-//added commnent from git
-
-//added new comment
-
-//added from git new
+//qwertyuuyyyy
 public class ArmstrongNumber {
 	public static void main(String args[])
 
